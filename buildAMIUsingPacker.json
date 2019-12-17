@@ -5,8 +5,8 @@
             "ami_name": "packer-linux-aws-demo-{{timestamp}}",
             "instance_type": "t2.micro",
             "region": "us-east-2",
-            "source_ami":"ami-00c03f7f7f2ec15c3",
-            "ssh_username": "ec2-user",
+            "source_ami":"ami-0b436ab964c7b1842",  #SourceAMI ID for Tomcat
+            "ssh_username": "ubuntu",
             "type": "amazon-ebs"
         }
     ],
